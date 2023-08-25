@@ -8,7 +8,7 @@ function CoinCard({ coin }) {
             <h4 className="coin-symbol">{coin.symbol}</h4>
             <p className="coin-rank">Rank: {coin.rank}</p>
             <p className="coin-price">Price: ${coin.price_usd}</p>
-            <Link href={`/${coin.id}`} className="view-details-link">
+            <Link href={`/${coin.id}`} className="view-details-link" href=""> 
                 View Details
             </Link>
         </div>
